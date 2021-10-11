@@ -27,6 +27,8 @@
 #
 # type source("c:/<dir>/R2.R") to start the test
 
+sessionInfo()
+
 runs <- 3			# Number of times the tests are executed
 times <- rep(0, 15); dim(times) <- c(5,3)
 require(Matrix)		# Optimized matrix operations
