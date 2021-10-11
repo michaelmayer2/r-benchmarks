@@ -1,0 +1,1 @@
+configure  '--prefix=/opt/R/4.1.1-openblas' '--with-blas=-L/usr/lib/x86_64-linux-gnu/ -lopenblas' '--with-lapack'

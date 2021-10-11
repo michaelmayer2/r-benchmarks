@@ -1,0 +1,1 @@
+configure  '--with-blas=-Wl,--no-as-needed -lmkl_gf_lp64 -Wl,--start-group -lmkl_gnu_thread  -lmkl_core  -Wl,--end-group -fopenmp  -ldl -lpthread -lm' '--with-lapack' '--prefix=/opt/R/4.1.1-mkl' 'PKG_CONFIG_PATH=/opt/intel/oneapi/mkl/2021.4.0/lib/pkgconfig'
